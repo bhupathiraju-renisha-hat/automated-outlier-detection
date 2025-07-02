@@ -1,0 +1,13 @@
+{
+  "datasets": [
+    {
+      "name": "table_ins_stats",
+      "input_file": "input/table_ins_stats.csv",
+      "datetime_field": "captured_at",
+      "key_fields": ["schemaname", "tablename"],
+      "value_fields": ["n_tup_ins", "n_tup_upd"]
+    }
+  ],
+  "output_folder": "output/",
+  "output_formats": ["excel", "csv"]
+}
